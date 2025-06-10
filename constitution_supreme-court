@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+  <!-- Tab Icon -->
+  <link rel="icon" href="photos/tab_icon.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Supreme Court Cases</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand active" href="index.html">
+      <div class="container">
+        <img src="photos/navbar_logo.png" class="d-inline-block align-top" alt="">
+        <div class="centered-element">
+          STELLAR CITIZENS
+        </div>
+      </div>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto dropdown-right-side">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            <span class="material-symbols-outlined">language</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="navbarDropdownMenuLink">
+            <!--<a class="dropdown-item" href="constitution_supreme-court.html">English</a>-->
+            <a class="dropdown-item" href="e_constitución_corte-suprema.html">Español</a>
+            <a class="dropdown-item" href="index-kreyòl.html">Kreyòl</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            Constitution
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="constitution_history.html">History</a>
+            <a class="dropdown-item" href="constitution_amendments.html">Amendments</a>
+            <a class="dropdown-item" href="constitution_supreme-court.html">Supreme Court<span class="sr-only">(current)</span></a>
+            <a class="dropdown-item" href="constitution_federal-laws.html">Federal Laws</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">Current Government</a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="current-government_united-states.html">United States</a>
+            <a class="dropdown-item" href="current-government_florida.html">Florida</a>
+            <a class="dropdown-item" href="current-government_missouri.html">Missouri</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="citizenship-test.html">Citizenship Test & Prep</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="get-involved.html">Get Involved</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about-us.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+    <!--
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </nav>
+  
+  <div class="body-content">
+    <p style="padding-bottom: 0; padding-top: 0.5%;">&nbsp;</p>
+    
+    <h1 align="center" class="card-style">U.S. Supreme Court Cases</h1>
+
+    <button onclick="topFunction()" id="my_btn" title="Go to top">
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+
+    <div class="accordion card-img-cntr-toggle star-list" id="accordionE">
+      <div class="card"> <!-- 1st -->
+        <div class="card-header card-header-odd" id="heading1">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            <h4>Obergefell v. Hodges - 2015</h4>
+          </button>
+        </div>
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Court held that the Due Process Clause of the Fourteenth Amendment guarantees the right to marry as one of the fundamental liberties it protects, and that analysis applies to same-sex couples in the same manner as it does to opposite-sex couples.”</p>
+                <h5>Implications</h5>
+                <p>All same-sex couples are guaranteed the right to marry, which extended legal marriage recognition to same-sex couples throughout the United States.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2012/12-144" target="_blank" class="case-a"><p>Hollingsworth v. Perry (2013)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2012/12-307" target="_blank" class="case-a"><p>United States v. Windsor (2013)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2002/02-102" target="_blank" class="case-a"><p>Lawrence v. Texas (2003)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/obergefell_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/2014/14-556" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 2nd -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            <h4>McDonald v. Chicago - 2010</h4>
+          </button>
+        </div>
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Fourteenth Amendment makes the Second Amendment right to keep and bear arms for the purpose of self-defense applicable to the states…The Court reasoned that rights that are ‘fundamental to the Nation's scheme of ordered liberty’ or that are ‘deeply rooted in this Nation's history and tradition’ are appropriately applied to the states through the Fourteenth Amendment.”</p>
+                <h5>Implications</h5>
+                <p>Applied the 2nd Amendment’s right to bear arms to state and local government.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2015/14-10078" target="_blank" class="case-a"><p>Caetano v. Massachusetts (2016)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2015/14-10154" target="_blank" class="case-a"><p>Voisine v. United States (2016)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2014/13-1487" target="_blank" class="case-a"><p>Henderson v. United States (2015)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2013/12-1371" target="_blank" class="case-a"><p>United States v. Castleman (2014)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2008/07-608" target="_blank" class="case-a"><p>United States v. Hayes (2009)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2007/07-290" target="_blank" class="case-a"><p>District of Columbia v. Heller (2008)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/307us174" target="_blank" class="case-a"><p>United States v. Miller (1939)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.mtsu.edu/first-amendment/article/58/united-states-v-cruikshank" target="_blank" class="case-a"><p>United States v. Cruikshank (1875)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/mcdonald_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/2009/08-1521" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 3rd -->
+        <div class="card-header  card-header-odd" id="heading3">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <h4>Citizens United v. Federal Election Commission - 2010</h4>
+          </button>
+        </div>
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The majority held that under the First Amendment corporate funding of independent political broadcasts in candidate elections cannot be limited.”</p>
+                <h5>Implications</h5>
+                <p>First Amendment protects people, not corporations. Political spending by corporations, associations, and labor unions is a form of protected speech under the First Amendment.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.fec.gov/updates/fec-v-wisconsin-right-to-life-inc/" target="_blank" class="case-a"><p>Wisconsin Right to Life v. FEC (2007)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1989/88-1569" target="_blank" class="case-a"><p>Austin v. Michigan Chamber of Commerce (1990)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/citizens_united.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.fec.gov/legal-resources/court-cases/citizens-united-v-fec/" target="_blank"><p class="card-style card-style-get-link">More Information</p></a>
+              <a href="https://www.oyez.org/cases/2008/08-205" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 4th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            <h4>United States v. Lopez - 1995</h4>
+          </button>
+        </div>
+        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The possession of a gun in a local school zone is not an economic activity that might, through repetition elsewhere, have a substantial effect on interstate commerce. The law is a criminal statute that has nothing to do with "commerce" or any sort of economic activity.”</p>
+                <h5>Implications</h5>
+                <p>A case about federalism and the balance of power between the federal and state governments but this case ruled in favor of state power over federal power. Congress may not use the commerce clause to make possession of a gun in a school zone a federal crime.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1964/543" target="_blank" class="case-a"><p>Katzenbach v. McClung (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1967/742" target="_blank" class="case-a"><p>Maryland v. Wirtz (1968)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/lopez_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1994/93-1260" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 5th -->
+        <div class="card-header  card-header-odd" id="heading5">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            <h4>Shaw v. Reno - 1993</h4>
+          </button>
+        </div>
+        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Court held that although North Carolina's reapportionment plan was racially neutral on its face, the resulting district shape was bizarre enough to suggest that it constituted an effort to separate voters into different districts based on race. The unusual district, while perhaps created by noble intentions, seemed to exceed what was reasonably necessary to avoid racial imbalances.”</p>
+                <h5>Implications</h5>
+                <p>Legislative redistricting must be conscious of race and ensure compliance with the Voting Rights Act of 1965. Set a precedent for future cases involving racial gerrymandering and to this day, districts cannot be drawn only with the intent to gather those of the same race into voting districts.</p>
+              </div>
+              <div class="col-4">
+                  <img src="photos/supreme_cases/shaw_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1992/92-357" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 6th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            <h4>Wisconsin v. Yoder - 1972</h4>
+          </button>
+        </div>
+        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Court held that individual's interests in the free exercise of religion under the First Amendment outweighed the State's interests in compelling school attendance beyond the eighth grade.”</p>
+                <h5>Implications</h5>
+                <p>Compelling Amish students to attend school past the eighth grade violates the free exercise clause. Established the precedent that an individual's right to exercise their religious beliefs under the First Amendment takes priority over the state's interests in compulsory education.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1992/91-948" target="_blank" class="case-a"><p>Church of the Lukumi-Babalu Aye v. Hialeah (1993)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/wisconsin_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1971/70-110" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 7th -->
+        <div class="card-header  card-header-odd" id="heading7">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            <h4>New York Times Co. v. United States - 1971</h4>
+          </button>
+        </div>
+        <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Court held that the government did not overcome the ‘heavy presumption against’ prior restraint of the press in this case. Justices Black and Douglas argued that the vague word ‘security’ should not be used ‘to abrogate the fundamental law embodied in the First Amendment.’"</p>
+                <h5>Implications</h5>
+                <p>Bolstered the freedom of the press, establishing a ‘heavy presumption against prior restraint’ even in cases involving national security.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1964/69" target="_blank" class="case-a"><p>Freedman v. Maryland (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1963/39" target="_blank" class="case-a"><p>New York Times v. Sullivan (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1956/582" target="_blank" class="case-a"><p>Roth v. United States (1957)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1956/6" target="_blank" class="case-a"><p>Yates v. United States (1957)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/320us81" target="_blank" class="case-a"><p>Hirabayashi v. United States (1943)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/299us353" target="_blank" class="case-a"><p>DeJonge v. Oregon (1937)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/283us697" target="_blank" class="case-a"><p>Near v. Minnesota (1931)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/249us47" target="_blank" class="case-a"><p>Schenck v. United States (1919)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/newyork_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1970/1873" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 8th -->
+        <div class="card-header card-header-even" id="heading8">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            <h4>Tinker v. Des Moines - 1969</h4>
+          </button>
+        </div>
+        <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Supreme Court held that the armbands represented pure speech that is entirely separate from the actions or conduct of those participating in it. The Court also held that the students did not lose their First Amendment rights to freedom of speech when they stepped onto school property.”</p>
+                <h5>Implications</h5>
+                <p>Public school students have the right to wear black armbands in school to protest the Vietnam War.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2006/06-278" target="_blank" class="case-a"><p>Morse v. Frederick (2007)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1987/86-836" target="_blank" class="case-a"><p>Hazelwood School District v. Kuhlmeier (1988)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1985/84-1667" target="_blank" class="case-a"><p>Bethel School District v. Fraser (1986)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/tinker_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1968/21" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 9th -->
+        <div class="card-header  card-header-odd" id="heading9">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            <h4>Miranda v. Arizona - 1966</h4>
+          </button>
+        </div>
+        <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Fifth Amendment requires that law enforcement officials advise suspects of their right to remain silent and to obtain an attorney during interrogations while in police custody.”</p>
+                <h5>Implications</h5>
+                <p>“Ruled that an arrested individual is entitled to rights against self-discrimination and to an attorney under the 5th and 6th Amendments of the United States Constitution.” Established Miranda Rights, which refer to your constitutional right to remain silent and your right to an attorney.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2011/10-1540" target="_blank" class="case-a"><p>Bobby v. Dixon (2011)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1993/92-1949" target="_blank" class="case-a"><p>Davis v. United States (1993)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1988/88-317" target="_blank" class="case-a"><p>Duckworth v. Eagan (1989)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1975/74-653" target="_blank" class="case-a"><p>Michigan v. Mosley (1975)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/miranda_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1965/759" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 10th -->
+        <div class="card-header card-header-even" id="heading10">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            <h4>Gideon v. Wainwright - 1963</h4>
+          </button>
+        </div>
+        <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Court held that it was consistent with the Constitution to require state courts to appoint attorneys for defendants who could not afford to retain counsel on their own.”</p>
+                <h5>Implications</h5>
+                <p>Guaranteed the right to an attorney for the poor or indigent.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1963/615" target="_blank" class="case-a"><p>Escobedo v. Illinois (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/316us455" target="_blank" class="case-a"><p>Betts v. Brady (1942)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/gideon_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1962/155" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 11th -->
+        <div class="card-header  card-header-odd" id="heading13">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+            <h4>Engel v. Vitale - 1962</h4>
+          </button>
+        </div>
+        <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The state cannot hold prayers in public schools, even if participation is not required and the prayer is not tied to a particular religion…The Court held that respondent's decision to use its school system to facilitate recitation of the official prayer violated the Establishment Clause.”</p>
+                <h5>Implications</h5>
+                <p>School sponsorship of religious activities violates the establishment clause. Demonstrated how the court ruled in favor of individual liberties and established the groundwork for many subsequent cases regarding schools and religious activities.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2001/00-1751" target="_blank" class="case-a"><p>Zelma v. Simmons Harris (2002)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1999/99-62" target="_blank" class="case-a"><p>Santa Fe Independent School District v. Doe (2000)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1989/88-1597" target="_blank" class="case-a"><p>Westside Community Schools v. Mergers (1990)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1962/142" target="_blank" class="case-a"><p>Abington School District v. Schempp (1963)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/330us1" target="_blank" class="case-a"><p>Everson v. Board of Education (1947)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/engel_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1961/468" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 12th -->
+        <div class="card-header card-header-even" id="heading14">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+            <h4>Baker v. Carr - 1961</h4>
+          </button>
+        </div>
+        <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“[The Court] concluded that the Fourteenth Amendment equal protection issues which Baker and others raised in this case merited judicial evaluation.”</p>
+                <h5>Implications</h5>
+                <p>Opened the door to equal protection challenges to redistricting and the development of the “one person, one vote” doctrine by ruling that challenges to redistricting did not raise “political questions” that would keep federal courts from reviewing such challenges.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/baker_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1960/6" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 13th -->
+        <div class="card-header  card-header-odd" id="heading15">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+            <h4>Brown v. Board of Education - 1954</h4>
+          </button>
+        </div>
+        <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“Separate but equal educational facilities for racial minorities is inherently unequal, violating the Equal Protection Clause of the Fourteenth Amendment.”</p>
+                <h5>Implications</h5>
+                <p>Race-based school segregation violates the equal protection clause. “Helped convince the Court that even when physical facilities and other "tangible" factors were equal, segregation still deprived minority children of equal educational opportunities.”</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/347us497" target="_blank" class="case-a"><p>Bolling v. Sharpe (1954)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.nps.gov/brvb/learn/historyculture/virginia.htm" target="_blank" class="case-a"><p>Davis v. County School Board (1954)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.nps.gov/brvb/learn/historyculture/socarolina.htm" target="_blank" class="case-a"><p>Briggs v. Elliot (1952)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.nps.gov/brvb/learn/historyculture/delaware.htm#:~:text=Black%20families%20were%20frustrated%20with,a%20school%20in%20the%20community." target="_blank" class="case-a"><p>Belton (Bulah) v. Gebhart (1952)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/brown_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1940-1955/347us483" target="_blank"><p class="card-style card-style-get-link">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 14th -->
+        <div class="card-header card-header-even" id="heading19">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+            <h4>Schenck v. United States - 1919</h4>
+          </button>
+        </div>
+        <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Ruling</h5>
+                <p>“The Court held that the Espionage Act did not violate the First Amendment and was an appropriate exercise of Congress’ wartime authority.”</p>
+                <h5>Implications</h5>
+                <p>Speech creating a “clear and present danger” is not protected by the First Amendment.</p>
+                <h5>Related Cases</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/250us616" target="_blank" class="case-a"><p>Abrams v. United States (1919)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/schenck_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1900-1940/249us47" target="_blank"><p class="card-style card-style-get-link-b">Detailed Explanation</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site footer -->
+  <footer>
+    <div class="row">
+      <div class="col-3" style="float: left; text-align: left;">
+        <div class="footer-body">
+          <ul>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Language</button>
+              <div class="content">
+                <a class="dropdown-item" href="index.html" style="font-size: 15px;">English</a>
+                <a class="dropdown-item" href="index-español.html" style="font-size: 15px;">Español</a>
+                <a class="dropdown-item" href="index-kreyòl.html" style="font-size: 15px;">Kreyòl</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Constitution</button>
+              <div class="content">
+                <a class="dropdown-item" href="history.html" style="font-size: 15px;">History</a>
+                <a class="dropdown-item" href="amendments.html" style="font-size: 15px;">Amendments</a>
+                <a class="dropdown-item" href="supreme-court.html" style="font-size: 15px;">Supreme Court</a>
+                <a class="dropdown-item" href="federal-laws.html" style="font-size: 15px;">Federal Laws</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Current Government</button>
+              <div class="content">
+                <a class="dropdown-item" href="united-states.html" style="font-size: 15px;">United States</a>
+                <a class="dropdown-item" href="florida.html" style="font-size: 15px;">Florida</a>
+                <a class="dropdown-item" href="missouri.html" style="font-size: 15px;">Missouri</a>
+              </div>
+          </li>
+            <li>
+              <a class="nav-link" href="citizenship-test.html" style="font-size: 15px; margin: 0;">Citizenship Test & Prep</a>
+            </li>
+            <li>
+              <a class="nav-link" href="get-involved.html" style="font-size: 15px;">Get Involved</a>
+            </li>
+            <li>
+              <a class="nav-link" href="about-us.html" style="font-size: 15px;">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6" style="text-align: center;">
+        <center>
+          <div class="footer-body card-footer-cntr">
+            <h5  style="font-size: 17px;">Sign up for our monthly newsletter for more modern civic translations!</h5>
+            <form>
+              <div class="input-group mb-3"> 
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3"  style="font-size: 14px;">Email</span>
+                </div>
+                <input type="text" class="form-control" id="basic-email" aria-describedby="basic-addon3">
+              </div>
+              <button type="submit" class="btn btn-submit"  style="font-size: 14px;">Submit</button>
+            </form>
+          </div>
+        </center>
+      </div>
+      <div class="col-3" style="float: right; text-align: right;">
+        <div class="footer-body footer-body-right">
+          <h5>created by sci_chicks</h5>
+          <p  style="font-size: 16.5px;">A group of female high school students aiming to educate others on the rights and laws in the United States.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <center>
+      <h7>Copyright ©2023 STELLAR CITIZENS</h7>
+    </center>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
+</body>
+
+</html>

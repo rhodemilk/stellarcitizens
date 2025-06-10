@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+  <!-- Tab Icon -->
+  <link rel="icon" href="photos/tab_icon.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Casos del Tribunal Supremo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand active" href="index-español.html">
+      <div class="container">
+        <img src="photos/navbar_logo.png" class="d-inline-block align-top" alt="">
+        <div class="centered-element">
+          STELLAR CITIZENS
+        </div>
+      </div>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto dropdown-right-side">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            <span class="material-symbols-outlined">language</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="constitution_supreme-court.html">English</a>
+            <!--<a class="dropdown-item" href="e_constitución_corte-suprema.html">Español</a>-->         
+            <a class="dropdown-item" href="index-kreyòl.html">Kreyòl</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            Constitución
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="e_constitución_historia.html">Historia</a>
+            <a class="dropdown-item" href="e_constitución_enmiendas.html">Enmiendas</a>
+            <a class="dropdown-item" href="e_constitución_corte-suprema.html">Corte Suprema<span class="sr-only">(current)</span></a>
+            <a class="dropdown-item" href="e_constitución_leyes-federal.html">Leyes Federal</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">Gobierno Actual</a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="e_gobierno-actual_estados-unidos.html">Estados Unidos</a>
+            <a class="dropdown-item" href="e_gobierno-actual_florida.html">Florida</a>
+            <a class="dropdown-item" href="e_gobierno-actual_missouri.html">Missouri</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="e_examen-de-ciudadanía.html">Examen de Ciudadanía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="e_involucrarse.html">Involucrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="e_sobre-nosotras.html">Sobre Nosotras</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </nav>
+  
+  <div class="body-content">
+    <p style="padding-bottom: 0; padding-top: 0.5%;">&nbsp;</p>
+    
+    <h1 align="center" class="card-style">Casos del Tribunal Supremo de EE.UU.</h1>
+
+    <button onclick="topFunction()" id="my_btn" title="Go to top">
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+
+    <div class="accordion card-img-cntr-toggle star-list" id="accordionE">
+      <div class="card"> <!-- 1st -->
+        <div class="card-header card-header-odd" id="heading1">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            <h4>Obergefell contra Hodges - 2015</h4>
+          </button>
+        </div>
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Tribunal sostuvo que la Cláusula del Debido Proceso de la Decimocuarta Enmienda garantiza el derecho a contraer matrimonio como una de las libertades fundamentales que protege, y que ese análisis se aplica a las parejas del mismo sexo del mismo modo que a las parejas de distinto sexo.</p>
+                <h5>Implicaciones</h5>
+                <p>Todas las parejas del mismo sexo tienen garantizado el derecho a contraer matrimonio, lo que amplió el reconocimiento legal del matrimonio a las parejas del mismo sexo en todo Estados Unidos.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2012/12-144" target="_blank" class="case-a"><p>Hollingsworth contra Perry (2013)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2012/12-307" target="_blank" class="case-a"><p>Estados Unidos contra Windsor (2013)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2002/02-102" target="_blank" class="case-a"><p>Lawrence contra Texas (2003)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/obergefell_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/2014/14-556" target="_blank"><p class="card-style card-style-get-link">Explicación detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 2nd -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            <h4>McDonald contra Chicago - 2010</h4>
+          </button>
+        </div>
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>La Decimocuarta Enmienda hace que el derecho de la Segunda Enmienda a poseer y portar armas con fines de autodefensa sea aplicable a los estados... El Tribunal razonó que los derechos que son "fundamentales para el esquema de libertad ordenada de la Nación" o que están "profundamente arraigados en la historia y tradición de esta Nación" se aplican apropiadamente a los estados a través de la Decimocuarta Enmienda.</p>
+                <h5>Implicaciones</h5>
+                <p>Aplicó el derecho a portar armas de la 2ª Enmienda al gobierno estatal y local.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2015/14-10078" target="_blank" class="case-a"><p>Caetano contra Massachusetts (2016)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2015/14-10154" target="_blank" class="case-a"><p>Voisine contra Estados Unidos (2016)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2014/13-1487" target="_blank" class="case-a"><p>Henderson contra Estados Unidos (2015)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2013/12-1371" target="_blank" class="case-a"><p>Estados Unidos contra Castleman (2014)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2008/07-608" target="_blank" class="case-a"><p>Estados Unidos contra Hayes (2009)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2007/07-290" target="_blank" class="case-a"><p>Distrito de Columbia contra Heller (2008)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/307us174" target="_blank" class="case-a"><p>Estados Unidos contra Miller (1939)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.mtsu.edu/first-amendment/article/58/united-states-v-cruikshank" target="_blank" class="case-a"><p>Estados Unidos contra Cruikshank (1875)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/mcdonald_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/2009/08-1521" target="_blank"><p class="card-style card-style-get-link-b">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 3rd -->
+        <div class="card-header  card-header-odd" id="heading3">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <h4>Citizens United contra la Comisión Federal Electoral - 2010</h4>
+          </button>
+        </div>
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>La mayoría sostuvo que, en virtud de la Primera Enmienda, no se puede limitar la financiación empresarial de emisiones políticas independientes en las elecciones de candidatos.</p>
+                <h5>Implicaciones</h5>
+                <p>La Primera Enmienda protege a las personas, no a las empresas. El gasto político de empresas, asociaciones y sindicatos es una forma de expresión protegida por la Primera Enmienda.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.fec.gov/updates/fec-v-wisconsin-right-to-life-inc/" target="_blank" class="case-a"><p>Wisconsin Right to Life contra FEC (2007)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1989/88-1569" target="_blank" class="case-a"><p>Austin contra la Cámara de Comercio de Michigan (1990)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/citizens_united.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.fec.gov/legal-resources/court-cases/citizens-united-v-fec/" target="_blank"><p class="card-style card-style-get-link">Más información</p></a>
+              <a href="https://www.oyez.org/cases/2008/08-205" target="_blank"><p class="card-style card-style-get-link">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 4th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            <h4>Estados Unidos contra López - 1995</h4>
+          </button>
+        </div>
+        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>La posesión de un arma en una zona escolar local no es una actividad económica que pueda, mediante su repetición en otro lugar, tener un efecto sustancial en el comercio interestatal. La ley es un estatuto penal que no tiene nada que ver con el "comercio" ni con ningún tipo de actividad económica.</p>
+                <h5>Implicaciones</h5>
+                <p>Un caso sobre federalismo y el equilibrio de poder entre el gobierno federal y los gobiernos estatales, pero este caso falló a favor del poder estatal sobre el federal. El Congreso no puede utilizar la cláusula de comercio para tipificar como delito federal la posesión de un arma en una zona escolar.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1964/543" target="_blank" class="case-a"><p>Katzenbach contra McClung (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1967/742" target="_blank" class="case-a"><p>Maryland contra Wirtz (1968)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/lopez_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1994/93-1260" target="_blank"><p class="card-style card-style-get-link-b">Explicación detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 5th -->
+        <div class="card-header  card-header-odd" id="heading5">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            <h4>Shaw contra Reno - 1993</h4>
+          </button>
+        </div>
+        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Tribunal sostuvo que, aunque el plan de reasignación de Carolina del Norte era racialmente neutro a primera vista, la forma del distrito resultante era lo suficientemente extraña como para sugerir que constituía un esfuerzo por separar a los votantes en diferentes distritos en función de la raza. El inusual distrito, aunque quizás creado con nobles intenciones, parecía exceder lo razonablemente necesario para evitar desequilibrios raciales.</p>
+                <h5>Implicaciones</h5>
+                <p>La redistribución legislativa de distritos debe tener en cuenta la raza y garantizar el cumplimiento de la Ley de Derecho de Voto de 1965. Sentó un precedente para futuros casos de gerrymandering racial y, a día de hoy, los distritos no pueden trazarse sólo con la intención de agrupar a los de la misma raza en distritos electorales.</p>
+              </div>
+              <div class="col-4">
+                  <img src="photos/supreme_cases/shaw_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1992/92-357" target="_blank"><p class="card-style card-style-get-link">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 6th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            <h4>Wisconsin contra Yoder - 1972</h4>
+          </button>
+        </div>
+        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Tribunal sostuvo que los intereses individuales en el libre ejercicio de la religión en virtud de la Primera Enmienda prevalecían sobre los intereses del Estado en obligar a asistir a la escuela más allá del octavo grado.</p>
+                <h5>Implicaciones</h5>
+                <p>Obligar a los estudiantes amish a asistir a la escuela más allá del octavo grado viola la cláusula de libre ejercicio. Sentó el precedente de que el derecho de una persona a ejercer sus creencias religiosas en virtud de la Primera Enmienda tiene prioridad sobre los intereses del Estado en la educación obligatoria.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1992/91-948" target="_blank" class="case-a"><p>Iglesia de Lukumi-Babalu Aye contra Hialeah (1993)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/wisconsin_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1971/70-110" target="_blank"><p class="card-style card-style-get-link-b">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 7th -->
+        <div class="card-header  card-header-odd" id="heading7">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            <h4>New York Times Co. contra Estados Unidos - 1971</h4>
+          </button>
+        </div>
+        <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Tribunal sostuvo que el gobierno no había superado la 'fuerte presunción contra' la restricción previa de la prensa en este caso. Los jueces Black y Douglas argumentaron que la vaga palabra 'seguridad' no debe usarse 'para derogar la ley fundamental incorporada en la Primera Enmienda'.</p>
+                <h5>Implicaciones</h5>
+                <p>Reforzó la libertad de prensa, estableciendo una "fuerte presunción contra la restricción previa", incluso en casos relacionados con la seguridad nacional.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1964/69" target="_blank" class="case-a"><p>Freedman contra Maryland (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1963/39" target="_blank" class="case-a"><p>New York Times contra Sullivan (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1956/582" target="_blank" class="case-a"><p>Roth contra Estados Unidos (1957)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1956/6" target="_blank" class="case-a"><p>Yates contra Estados Unidos (1957)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/320us81" target="_blank" class="case-a"><p>Hirabayashi contra Estados Unidos (1943)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/299us353" target="_blank" class="case-a"><p>DeJonge contra Oregón (1937)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/283us697" target="_blank" class="case-a"><p>Near contra Minnesota (1931)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/249us47" target="_blank" class="case-a"><p>Schenck contra Estados Unidos (1919)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/newyork_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1970/1873" target="_blank"><p class="card-style card-style-get-link">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 8th -->
+        <div class="card-header card-header-even" id="heading8">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            <h4>Tinker contra Des Moines - 1969</h4>
+          </button>
+        </div>
+        <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Tribunal Supremo sostuvo que los brazaletes representaban un discurso puro, totalmente independiente de las acciones o conductas de quienes participaban en él. El Tribunal también sostuvo que los estudiantes no perdieron su derecho a la libertad de expresión en virtud de la Primera Enmienda cuando entraron en las instalaciones de la escuela.</p>
+                <h5>Implicaciones</h5>
+                <p>Los alumnos de las escuelas públicas tienen derecho a llevar brazaletes negros en la escuela para protestar contra la guerra de Vietnam.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2006/06-278" target="_blank" class="case-a"><p>Morse contra Frederick (2007)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1987/86-836" target="_blank" class="case-a"><p>Distrito escolar de Hazelwood contra Kuhlmeier (1988)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1985/84-1667" target="_blank" class="case-a"><p>Distrito escolar de Bethel contra Fraser (1986)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/tinker_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1968/21" target="_blank"><p class="card-style card-style-get-link-b">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 9th -->
+        <div class="card-header  card-header-odd" id="heading9">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            <h4>Miranda contra Arizona - 1966</h4>
+          </button>
+        </div>
+        <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>La Quinta Enmienda exige que los funcionarios encargados de hacer cumplir la ley informen a los sospechosos de su derecho a permanecer en silencio y a obtener un abogado durante los interrogatorios mientras se encuentran bajo custodia policial.</p>
+                <h5>Implicaciones</h5>
+                <p>Dictaminó que una persona detenida tiene derecho a no ser discriminada y a un abogado en virtud de la 5ª y 6ª Enmiendas de la Constitución de los Estados Unidos". Estableció los derechos Miranda, que se refieren a su derecho constitucional a permanecer en silencio y su derecho a un abogado.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2011/10-1540" target="_blank" class="case-a"><p>Bobby contra Dixon (2011)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1993/92-1949" target="_blank" class="case-a"><p>Davis contra Estados Unidos (1993)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1988/88-317" target="_blank" class="case-a"><p>Duckworth contra Eagan (1989)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1975/74-653" target="_blank" class="case-a"><p>Michigan contra Mosley (1975)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/miranda_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1965/759" target="_blank"><p class="card-style card-style-get-link">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 10th -->
+        <div class="card-header card-header-even" id="heading10">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            <h4>Gideon contra Wainwright - 1963</h4>
+          </button>
+        </div>
+        <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Tribunal sostuvo que era coherente con la Constitución exigir a los tribunales estatales que designaran abogados para los acusados que no pudieran permitirse contratarlos por sí mismos.</p>
+                <h5>Implicaciones</h5>
+                <p>Garantizó el derecho a un abogado para los pobres o indigentes.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1963/615" target="_blank" class="case-a"><p>Escobedo contra Illinois (1964)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/316us455" target="_blank" class="case-a"><p>Betts contra Brady (1942)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/gideon_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1962/155" target="_blank"><p class="card-style card-style-get-link-b">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 11th -->
+        <div class="card-header  card-header-odd" id="heading13">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+            <h4>Engel contra Vitale - 1962</h4>
+          </button>
+        </div>
+        <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>El Estado no puede celebrar oraciones en las escuelas públicas, aunque no se exija la participación y la oración no esté vinculada a una religión concreta... El Tribunal sostuvo que la decisión del demandado de utilizar su sistema escolar para facilitar la recitación de la oración oficial violaba la Cláusula de Establecimiento.</p>
+                <h5>Implicaciones</h5>
+                <p>El patrocinio escolar de actividades religiosas viola la cláusula de establecimiento. Demostró cómo el tribunal falló a favor de las libertades individuales y sentó las bases para muchos casos posteriores relacionados con las escuelas y las actividades religiosas.</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/2001/00-1751" target="_blank" class="case-a"><p>Zelma contra Simmons Harris (2002)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1999/99-62" target="_blank" class="case-a"><p>Distrito escolar independiente de Santa Fe contra Doe (2000)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1989/88-1597" target="_blank" class="case-a"><p>Westside Community Schools contra Mergers (1990)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1962/142" target="_blank" class="case-a"><p>Distrito escolar de Abington contra Schempp (1963)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/330us1" target="_blank" class="case-a"><p>Everson contra el Consejo de Educación (1947)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/engel_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1961/468" target="_blank"><p class="card-style card-style-get-link">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 12th -->
+        <div class="card-header card-header-even" id="heading14">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+            <h4>Baker contra Carr - 1961</h4>
+          </button>
+        </div>
+        <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>[El Tribunal] llegó a la conclusión de que las cuestiones de igualdad de protección de la Decimocuarta Enmienda que Baker y otros plantearon en este caso merecían una evaluación judicial.</p>
+                <h5>Implicaciones</h5>
+                <p>Abrió la puerta a la impugnación de la redistribución de distritos por motivos de igualdad de protección y al desarrollo de la doctrina "una persona, un voto" al dictaminar que las impugnaciones de la redistribución de distritos no planteaban "cuestiones políticas" que impidieran a los tribunales federales revisar dichas impugnaciones.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/baker_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1960/6" target="_blank"><p class="card-style card-style-get-link-b">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 13th -->
+        <div class="card-header  card-header-odd" id="heading15">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+            <h4>Brown contra el Consejo de Educación - 1954</h4>
+          </button>
+        </div>
+        <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>Las instalaciones educativas separadas pero iguales para las minorías raciales son intrínsecamente desiguales, lo que viola la Cláusula de Igual Protección de la Decimocuarta Enmienda.</p>
+                <h5>Implicaciones</h5>
+                <p>La segregación escolar basada en la raza viola la cláusula de igualdad de protección. "Ayudó a convencer al Tribunal de que incluso cuando las instalaciones físicas y otros factores "tangibles" eran iguales, la segregación seguía privando a los niños de las minorías de la igualdad de oportunidades educativas".</p>
+                <h5>Casos Relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1940-1955/347us497" target="_blank" class="case-a"><p>Bolling contra Sharpe (1954)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.nps.gov/brvb/learn/historyculture/virginia.htm" target="_blank" class="case-a"><p>Davis contra la Junta Escolar del Condado (1954)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.nps.gov/brvb/learn/historyculture/socarolina.htm" target="_blank" class="case-a"><p>Briggs contra Elliot (1952)</p></a>
+                  </li>
+                  <li>
+                    <a href="https://www.nps.gov/brvb/learn/historyculture/delaware.htm#:~:text=Black%20families%20were%20frustrated%20with,a%20school%20in%20the%20community." target="_blank" class="case-a"><p>Belton (Bulah) contra Gebhart (1952)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/brown_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1940-1955/347us483" target="_blank"><p class="card-style card-style-get-link">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 14th -->
+        <div class="card-header card-header-even" id="heading19">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+            <h4>Schenck contra Estados Unidos - 1919</h4>
+          </button>
+        </div>
+        <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Gobernando</h5>
+                <p>"El Tribunal sostuvo que la Ley de Espionaje no violaba la Primera Enmienda y era un ejercicio apropiado de la autoridad del Congreso en tiempos de guerra."</p>
+                <h5>Implicaciones</h5>
+                <p>Las expresiones que crean un "peligro claro y actual" no están protegidas por la Primera Enmienda.</p>
+                <h5>Casos relacionados</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.oyez.org/cases/1900-1940/250us616" target="_blank" class="case-a"><p>Abrams contra Estados Unidos (1919)</p></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="photos/supreme_cases/schenck_case.jpg"/>
+              </div>
+            </div>
+            <div class="mid-content">
+              <a href="https://www.oyez.org/cases/1900-1940/249us47" target="_blank"><p class="card-style card-style-get-link-b">Explicación Detallada</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site footer -->
+  <footer>
+    <div class="row">
+      <div class="col-3" style="float: left; text-align: left;">
+        <div class="footer-body">
+          <ul>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Idioma</button>
+              <div class="content">
+                <a class="dropdown-item" href="index.html" style="font-size: 15px;">English</a>
+                <a class="dropdown-item" href="index-español.html" style="font-size: 15px;">Español</a>
+                <a class="dropdown-item" href="index-kreyòl.html" style="font-size: 15px;">Kreyòl</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Constitución</button>
+              <div class="content">
+                <a class="dropdown-item" href="e_constitución_historia.html" style="font-size: 15px;">Historia</a>
+                <a class="dropdown-item" href="e_constitución_enmiendas.html" style="font-size: 15px;">Enmiendas</a>
+                <a class="dropdown-item" href="e_constitución_corte-suprema.html" style="font-size: 15px;">Corte Suprema</a>
+                <a class="dropdown-item" href="e_constitución_leyes-federal.html" style="font-size: 15px;">Leyes Federal</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Gobierno Actual</button>
+              <div class="content">
+                <a class="dropdown-item" href="e_gobierno-actual_estados-unidos.html" style="font-size: 15px;">Estados Unidos</a>
+                <a class="dropdown-item" href="e_gobierno-actual_florida.html" style="font-size: 15px;">Florida</a>
+                <a class="dropdown-item" href="e_gobierno-actual_missouri.html" style="font-size: 15px;">Missouri</a>
+              </div>
+          </li>
+            <li>
+              <a class="nav-link" href="e_examen-de-ciudadanía.html" style="font-size: 15px; margin: 0;">Examen de Ciudadanía</a>
+            </li>
+            <li>
+              <a class="nav-link" href="e_involucrarse.html" style="font-size: 15px;">Involucrarse</a>
+            </li>
+            <li>
+              <a class="nav-link" href="e_sobre-nosotras.html" style="font-size: 15px;">Sobre Nosotras</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6" style="text-align: center;">
+        <center>
+          <div class="footer-body card-footer-cntr">
+            <h5  style="font-size: 17px;">¡Suscríbase a nuestro boletín mensual para obtener más traducciones cívicas modernas!</h5>
+            <form>
+              <div class="input-group mb-3"> 
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3"  style="font-size: 14px;">Correo Electrónico</span>
+                </div>
+                <input type="text" class="form-control" id="basic-email" aria-describedby="basic-addon3">
+              </div>
+              <button type="submit" class="btn btn-submit"  style="font-size: 14px;">Subscribirte</button>
+            </form>
+          </div>
+        </center>
+      </div>
+      <div class="col-3" style="float: right; text-align: right;">
+        <div class="footer-body footer-body-right">
+          <h5>creado por sci-chicks</h5>
+          <p  style="font-size: 16.5px;">Un grupo de estudiantes de secundaria que tienen como objetivo educar a otros sobre los derechos y las leyes en los Estados Unidos.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <center>
+      <h7>Copyright ©2023 STELLAR CITIZENS</h7>
+    </center>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
+</body>
+
+</html>

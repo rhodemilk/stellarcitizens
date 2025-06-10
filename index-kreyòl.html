@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+  <!-- Tab Icon -->
+  <link rel="icon" href="photos/tab_icon.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Paj Dakèy</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand active" href="index-kreyòl.html">
+      <div class="container">
+        <img src="photos/navbar_logo.png" class="d-inline-block align-top" alt="">
+        <div class="centered-element">
+          STELLAR CITIZENS
+          <span class="sr-only">(current)</span>
+        </div>
+      </div>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto dropdown-right-side">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            <span class="material-symbols-outlined">language</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="index.html">English</a>
+            <a class="dropdown-item" href="index-español.html">Español</a>            
+            <!--<a class="dropdown-item" href="index-kreyòl.html">Kreyòl</a>-->  
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            Konstitisyon
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Istwa</a>
+            <a class="dropdown-item" href="#">Amannman</a>
+            <a class="dropdown-item" href="#">Tribinal Siprèm</a>
+            <a class="dropdown-item" href="#">Lwa Federal</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">Gouvènmen Aktyèl</a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Etazini</a>
+            <a class="dropdown-item" href="#">Florida</a>
+            <a class="dropdown-item" href="#">Missouri</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tès Sitwayènte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Patisipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kiyès Nou Ye?</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </nav>
+  
+  <div class="body-content">
+    <p style="padding-bottom: 0; padding-top: 10%;">&nbsp;</p>
+    
+    <button onclick="topFunction()" id="my_btn" title="Go to top">
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+
+    <div class="mid-content">
+      <h2 class="card-style card-style-get">
+Plis Kontni Ap Vini Byento!</h2>
+    </div>
+
+    <p style="padding-bottom: 0; padding-top: 10%;">&nbsp;</p>
+  </div>
+     
+  <!-- Site footer -->
+  <footer>
+    <div class="row">
+      <div class="col-3" style="float: left; text-align: left;">
+        <div class="footer-body">
+          <ul>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Lang</button>
+              <div class="content">
+                <a class="dropdown-item" href="index.html" style="font-size: 15px;">English</a>
+                <a class="dropdown-item" href="index-español.html" style="font-size: 15px;">Español</a>
+                <a class="dropdown-item" href="index-kreyòl.html" style="font-size: 15px;">Kreyòl</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Konstitisyon</button>
+              <div class="content">
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Istwa</a>
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Amannman</a>
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Tribinal Siprèm</a>
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Lwa Federal</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Gouvènmen Aktyèl</button>
+              <div class="content">
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Etazini</a>
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Florida</a>
+                <a class="dropdown-item" href="#" style="font-size: 15px;">Missouri</a>
+              </div>
+          </li>
+            <li>
+              <a class="nav-link" href="#" style="font-size: 15px; margin: 0;">Tès Sitwayènte</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#" style="font-size: 15px;">Patisipe</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#" style="font-size: 15px;">Kiyès Nou Ye?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6" style="text-align: center;">
+        <center>
+          <div class="footer-body card-footer-cntr">
+            <h5  style="font-size: 17px;">Enskri pou bilten mansyèl nou an pou plis tradiksyon sivik modèn!</h5>
+            <form>
+              <div class="input-group mb-3"> 
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3"  style="font-size: 14px;">Imèl</span>
+                </div>
+                <input type="text" class="form-control" id="basic-email" aria-describedby="basic-addon3">
+              </div>
+              <button type="submit" class="btn btn-submit"  style="font-size: 14px;">Soumèt</button>
+            </form>
+          </div>
+        </center>
+      </div>
+      <div class="col-3" style="float: right; text-align: right;">
+        <div class="footer-body footer-body-right">
+          <h5>kreye pa sci-chicks</h5>
+          <p  style="font-size: 16.5px;">Yon gwoup jèn fi nan lekòl segondè ki vize edike lòt moun sou dwa ak lwa Ozetazini.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <center>
+      <h7>Copyright ©2023 STELLAR CITIZENS</h7>
+    </center>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
+</body>
+
+</html>

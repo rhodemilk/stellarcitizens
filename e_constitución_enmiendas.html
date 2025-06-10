@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+  <!-- Tab Icon -->
+  <link rel="icon" href="photos/tab_icon.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Enmiendas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand active" href="index-español.html">
+      <div class="container">
+        <img src="photos/navbar_logo.png" class="d-inline-block align-top" alt="">
+        <div class="centered-element">
+          STELLAR CITIZENS
+        </div>
+      </div>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto dropdown-right-side">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            <span class="material-symbols-outlined">language</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="constitution_amendments.html">English</a>
+            <!--<a class="dropdown-item" href="e_constitución_enmiendas.html">Español</a>-->         
+            <a class="dropdown-item" href="index-kreyòl.html">Kreyòl</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            Constitución
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="e_constitución_historia.html">Historia</a>
+            <a class="dropdown-item" href="e_constitución_enmiendas.html">Enmiendas<span class="sr-only">(current)</span></a>
+            <a class="dropdown-item" href="e_constitución_corte-suprema.html">Corte Suprema</a>
+            <a class="dropdown-item" href="e_constitución_leyes-federal.html">Leyes Federal</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">Gobierno Actual</a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="e_gobierno-actual_estados-unidos.html">Estados Unidos</a>
+            <a class="dropdown-item" href="e_gobierno-actual_florida.html">Florida</a>
+            <a class="dropdown-item" href="e_gobierno-actual_missouri.html">Missouri</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="e_examen-de-ciudadanía.html">Examen de Ciudadanía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="e_involucrarse.html">Involucrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="e_sobre-nosotras.html">Sobre Nosotras</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </nav>
+  
+  <div class="body-content">
+    <p style="padding-bottom: 0; padding-top: 0.5%;">&nbsp;</p>
+    
+    <h1 align="center" class="card-style">Enmiendas a la Constitución de EE.UU.</h1>
+
+    <button onclick="topFunction()" id="my_btn" title="Go to top">
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+
+    <div class="accordion card-img-cntr-toggle" id="accordionE">
+      <div class="card"> <!-- 1st -->
+        <div class="card-header  card-header-odd" id="heading1">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            <h4>Carta de Derechos - 1ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.</p>
+                <h5>Traducción de la Original</h5>
+                <p>El Congreso no aprobará ninguna ley que respete el establecimiento de una religión, o que prohíba el libre ejercicio de la misma; o que coarte la libertad de expresión o de prensa; o el derecho del pueblo a reunirse pacíficamente y a solicitar al gobierno la reparación de agravios.</p>
+                <h5>Traducción Moderna</h5>
+                <p>El derecho a la libertad de expresión, de religión, de reunión pacífica y de petición o protesta contra el gobierno.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/first_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 2nd -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            <h4>Declaración de Derechos - 2ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p>
+                <h5>Traducción de la Original</h5>
+                <p>Siendo necesaria una Milicia bien regulada para la seguridad de un Estado libre, el derecho del pueblo a poseer y portar Armas no será infringido.</p>
+                <h5>Traducción Moderna</h5>
+                <p>El derecho de un individuo a poseer un arma para defensa propia sin necesidad de pertenecer a una milicia.</p>
+              </div>
+             <div class="col-4">
+                <img src="photos/amendments/second_amendment.jpg"/>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 3rd -->
+        <div class="card-header  card-header-odd" id="heading3">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <h4>Declaración de Derechos - 3ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.</p>
+                <h5>Traducción de la Original</h5>
+                <p>En tiempos de paz, ningún Soldado podrá ser acuartelado en ninguna casa sin el consentimiento del Propietario, ni en tiempos de guerra, sino en la forma que prescriba la ley.</p>
+                <h5>Traducción Moderna</h5>
+                <p>El gobierno no puede obligar a los ciudadanos a que los soldados vivan en sus casas en tiempos de guerra y demás.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/third_amendment.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 4th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            <h4>Declaración de Derechos - 4ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.</p>
+                <h5>Traducción de la Original</h5>
+                <p>No se violará el derecho del pueblo a la seguridad de sus personas, hogares, documentos y efectos personales, contra registros y confiscaciones irrazonables, y no se emitirá ninguna Orden Judicial, salvo por causa probable, respaldada por Juramento o afirmación, y que describa en particular el lugar a registrar y las personas o cosas a confiscar.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Derecho a rechazar un registro en su casa/pobreza sin una orden judicial.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/fourth_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 5th -->
+        <div class="card-header  card-header-odd" id="heading5">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            <h4>Carta de Derechos - 5ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.</p>
+                <h5>Traducción de la Original</h5>
+                <p>Ninguna persona podrá ser condenada a responder por un delito punible con la pena capital o por cualquier otro delito infamante, a menos que medie una acusación o imputación de un Gran Jurado, salvo en los casos que se presenten en las fuerzas terrestres o navales, o en la Milicia, cuando estén en servicio activo en tiempo de Guerra o de peligro público; ninguna persona podrá ser sometida dos veces por el mismo delito a peligro de su vida o su integridad física; ninguna persona podrá ser obligada en una causa penal a declarar contra sí misma; ninguna persona podrá ser privada de la vida, la libertad o la propiedad sin el debido procedimiento legal; ninguna persona podrá ser privada de su propiedad para uso público sin una indemnización justa.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Derecho a guardar silencio en cualquier procedimiento civil o penal. No puede ser privado de su propiedad ni de ningún derecho sin ser juzgado ante un tribunal. No puede ser condenado varias veces por el mismo delito que cometió una vez.</p>
+              </div>
+                <div class="col-4">
+                <img src="photos/amendments/fifth_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 6th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            <h4>Carta de Derechos - 6ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be informed of the nature and cause of the accusation; to be confronted with the witnesses against him; to have compulsory process for obtaining witnesses in his favor, and to have the Assistance of Counsel for his defence.</p>
+                <h5>Traducción de la Original</h5>
+                <p>En todos los procesos penales, el acusado gozará del derecho a un juicio rápido y público, por un jurado imparcial del Estado y del distrito donde se haya cometido el delito, distrito que habrá sido previamente determinado por la ley, y a ser informado de la naturaleza y causa de la acusación; a ser careado con los testigos de cargo; a un proceso obligatorio para obtener testigos a su favor, y a contar con la Asistencia de un Abogado para su defensa.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Los derechos de los acusados de delitos penales, incluido el derecho a un juicio público sin demoras innecesarias, el derecho a un abogado, el derecho a un jurado imparcial y el derecho a saber quiénes son sus acusadores y la naturaleza de los cargos y pruebas contra usted.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/sixth_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 7th -->
+        <div class="card-header  card-header-odd" id="heading7">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            <h4>Declaración de Derechos - 7ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>In Suits at common law, where the value in controversy shall exceed twenty dollars, the right of trial by jury shall be preserved, and no fact tried by a jury, shall be otherwise re-examined in any Court of the United States, than according to the rules of the common law.
+</p>
+                <h5>Traducción de la Original</h5>
+                <p>En los Pleitos de derecho consuetudinario, cuando el valor en controversia exceda de veinte dólares, se preservará el derecho a juicio por jurado, y ningún hecho juzgado por un jurado podrá ser reexaminado en ningún Tribunal de los Estados Unidos de otra manera que de acuerdo con las reglas del derecho consuetudinario.</p>
+                <h5>Traducción Moderna</h5>
+                <p> Todo ciudadano tiene derecho a un juicio con jurado en casos civiles. (casos de divorcio, demandas, etc.)</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/seventh_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 8th -->
+        <div class="card-header card-header-even" id="heading8">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            <h4>Carta de Derechos - 8ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.</p>
+                <h5>Traducción de la Original</h5>
+                <p>No se exigirán fianzas excesivas, ni se impondrán multas excesivas, ni se infligirán penas crueles e inusitadas.</p>
+                <h5>Traducción Moderna</h5>
+                <p>No a los castigos crueles e inusuales ni a las fianzas extremas para los ciudadanos.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/eight_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 9th -->
+        <div class="card-header  card-header-odd" id="heading9">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            <h4>Carta de Derechos - 9ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.</p>
+                <h5>Traducción de la Original</h5>
+                <p>La enumeración en la Constitución de ciertos derechos no debe interpretarse en el sentido de que niega o menosprecia otros retenidos por el pueblo.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Los derechos de las personas no se limitan a los derechos enumerados en la Constitución.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/ninth_amendment.svg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 10th -->
+        <div class="card-header card-header-even" id="heading10">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            <h4>Declaración de Derechos - 10ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.</p>
+                <h5>Traducción de la Original</h5>
+                <p>Los poderes no delegados a los Estados Unidos por la Constitución, ni prohibidos por ella a los Estados, están reservados a los Estados respectivamente, o al pueblo.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Las competencias/leyes que no correspondan al gobierno federal se dejan a la decisión de los gobiernos estatales y locales.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/tenth_amendment.gif"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 13th -->
+        <div class="card-header  card-header-odd" id="heading13">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+            <h4>13ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.Congress shall have power to enforce this article by appropriate legislation.</p>
+                <h5>Traducción de la Original</h5>
+                <p>Ni la esclavitud ni la servidumbre involuntaria, excepto como castigo por un crimen por el cual la parte haya sido debidamente condenada, existirán dentro de los Estados Unidos, o en cualquier lugar sujeto a su jurisdicción.El Congreso tendrá poder para hacer cumplir este artículo mediante la legislación apropiada.</p>
+                <h5>Traducción Moderna</h5>
+                <p>La esclavitud es ilegal y está proscrita en Estados Unidos a menos que se utilice como castigo por un delito.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/thirteenth_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 14th -->
+        <div class="card-header card-header-even" id="heading14">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+            <h4>14ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.</p>
+                <h5>Traducción de la Original</h5>
+                <p>Todas las personas nacidas o naturalizadas en los Estados Unidos y sujetas a su jurisdicción son ciudadanos de los Estados Unidos y del Estado en que residan. Ningún Estado promulgará ni hará cumplir ley alguna que restrinja los privilegios o inmunidades de los ciudadanos de los Estados Unidos; ni ningún Estado privará a persona alguna de la vida, la libertad o la propiedad, sin el debido procedimiento legal; ni negará a persona alguna, dentro de su jurisdicción, la igual protección de las leyes.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Todo ciudadano de los Estados Unidos, nacido o naturalizado, no puede ser privado de sus derechos naturales por las leyes estatales. Básicamente, todos son iguales.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/fourteenth_amendment.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 15th -->
+        <div class="card-header  card-header-odd" id="heading15">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+            <h4>15ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude–</p>
+                <h5>Traducción de la Original</h5>
+                <p>El derecho al voto de los ciudadanos de los Estados Unidos no será denegado ni restringido por los Estados Unidos ni por ningún Estado por motivos de raza, color o condición previa de servidumbre.</p>
+                <h5>Traducción Moderna</h5>
+                <p>El derecho de voto no puede denegarse por una raza determinada. Cualquier raza puede votar.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/fifteenth_amendment.gif"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 19th -->
+        <div class="card-header card-header-even" id="heading19">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+            <h4>19ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex. Congress shall have power to enforce this article by appropriate legislation. </p>
+                <h5>Traducción de la Original</h5>
+                <p>El derecho de voto de los ciudadanos de los Estados Unidos no podrá ser denegado ni restringido por los Estados Unidos ni por ningún Estado por razón de sexo. El Congreso estará facultado para hacer cumplir este artículo mediante la legislación apropiada.</p>
+                <h5>Traducción Moderna</h5>
+                <p>Cualquier sexo/género puede votar. No se te puede negar el derecho al voto por razón de sexo.</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/nineteenth_amendment.webp"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 26th -->
+        <div class="card-header  card-header-odd" id="heading26">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">
+            <h4>26ª Enmienda</h4>
+          </button>
+        </div>
+        <div id="collapse26" class="collapse" aria-labelledby="heading26" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-8">
+                <h5>Original</h5>
+                <p>The right of citizens of the United States, who are eighteen years of age or older, to vote shall not be denied or abridged by the United States or by any State on account of age.</p>
+                <h5>Traducción de la Original</h5>
+                <p>El derecho al voto de los ciudadanos de los Estados Unidos mayores de dieciocho años no será denegado ni coartado por los Estados Unidos ni por ningún Estado en razón de la edad.</p>
+                <h5>Traducción Moderna</h5>
+                <p>El derecho al voto comienza a los 18 años y no se puede negar a partir de esa edad.
+</p>
+              </div>
+              <div class="col-4">
+                <img src="photos/amendments/twentysixth_amendment.jpeg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Site footer -->
+  <footer>
+    <div class="row">
+      <div class="col-3" style="float: left; text-align: left;">
+        <div class="footer-body">
+          <ul>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Idioma</button>
+              <div class="content">
+                <a class="dropdown-item" href="index.html" style="font-size: 15px;">English</a>
+                <a class="dropdown-item" href="index-español.html" style="font-size: 15px;">Español</a>
+                <a class="dropdown-item" href="index-kreyòl.html" style="font-size: 15px;">Kreyòl</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Constitución</button>
+              <div class="content">
+                <a class="dropdown-item" href="e_constitución_historia.html" style="font-size: 15px;">Historia</a>
+                <a class="dropdown-item" href="e_constitución_enmiendas.html" style="font-size: 15px;">Enmiendas</a>
+                <a class="dropdown-item" href="e_constitución_corte-suprema.html" style="font-size: 15px;">Corte Suprema</a>
+                <a class="dropdown-item" href="e_constitución_leyes-federal.html" style="font-size: 15px;">Leyes Federal</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Gobierno Actual</button>
+              <div class="content">
+                <a class="dropdown-item" href="e_gobierno-actual_estados-unidos.html" style="font-size: 15px;">Estados Unidos</a>
+                <a class="dropdown-item" href="e_gobierno-actual_florida.html" style="font-size: 15px;">Florida</a>
+                <a class="dropdown-item" href="e_gobierno-actual_missouri.html" style="font-size: 15px;">Missouri</a>
+              </div>
+          </li>
+            <li>
+              <a class="nav-link" href="e_examen-de-ciudadanía.html" style="font-size: 15px; margin: 0;">Examen de Ciudadanía</a>
+            </li>
+            <li>
+              <a class="nav-link" href="e_involucrarse.html" style="font-size: 15px;">Involucrarse</a>
+            </li>
+            <li>
+              <a class="nav-link" href="e_sobre-nosotras.html" style="font-size: 15px;">Sobre Nosotras</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6" style="text-align: center;">
+        <center>
+          <div class="footer-body card-footer-cntr">
+            <h5  style="font-size: 17px;">¡Suscríbase a nuestro boletín mensual para obtener más traducciones cívicas modernas!</h5>
+            <form>
+              <div class="input-group mb-3"> 
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3"  style="font-size: 14px;">Correo Electrónico</span>
+                </div>
+                <input type="text" class="form-control" id="basic-email" aria-describedby="basic-addon3">
+              </div>
+              <button type="submit" class="btn btn-submit"  style="font-size: 14px;">Subscribirte</button>
+            </form>
+          </div>
+        </center>
+      </div>
+      <div class="col-3" style="float: right; text-align: right;">
+        <div class="footer-body footer-body-right">
+          <h5>creado por sci-chicks</h5>
+          <p  style="font-size: 16.5px;">Un grupo de estudiantes de secundaria que tienen como objetivo educar a otros sobre los derechos y las leyes en los Estados Unidos.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <center>
+      <h7>Copyright ©2023 STELLAR CITIZENS</h7>
+    </center>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+  <!-- Tab Icon -->
+  <link rel="icon" href="photos/tab_icon.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Federal Laws</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand active" href="index.html">
+      <div class="container">
+        <img src="photos/navbar_logo.png" class="d-inline-block align-top" alt="">
+        <div class="centered-element">
+          STELLAR CITIZENS
+        </div>
+      </div>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto dropdown-right-side">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            <span class="material-symbols-outlined">language</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="navbarDropdownMenuLink">
+            <!--<a class="dropdown-item" href="constitution_federal-laws.html">English</a>-->
+            <a class="dropdown-item" href="e_constitución_leyes-federal.html">Español</a>
+            <a class="dropdown-item" href="index-kreyòl.html">Kreyòl</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+            Constitution
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="constitution_history.html">History</a>
+            <a class="dropdown-item" href="constitution_amendments.html">Amendments</a>
+            <a class="dropdown-item" href="constitution_supreme-court.html">Supreme Court</a>
+            <a class="dropdown-item" href="constitution_federal-laws.html">Federal Laws<span class="sr-only">(current)</span></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">Current Government</a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left nav-dropdown" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="current-government_united-states.html">United States</a>
+            <a class="dropdown-item" href="current-government_florida.html">Florida</a>
+            <a class="dropdown-item" href="current-government_missouri.html">Missouri</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="citizenship-test.html">Citizenship Test & Prep</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="get-involved.html">Get Involved</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about-us.html">About Us</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </nav>
+  
+  <div class="body-content">
+    <p style="padding-bottom: 0; padding-top: 0.5%;">&nbsp;</p>
+    
+    <h1 align="center" class="card-style">U.S. Federal Laws</h1>
+
+    <button onclick="topFunction()" id="my_btn" title="Go to top">
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+
+    <div class="accordion card-img-cntr-toggle" id="accordionE">
+      <div class="card"> <!-- 1st -->
+        <div class="card-header  card-header-odd" id="heading1">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            <h4>Civil Rights Act of 1964</h4>
+          </button>
+        </div>
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/civilrightsact.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Forbids discrimination on the grounds of race, color, religion, sex, or national origin.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 2nd -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            <h4>The Voting Rights Act of 1965</h4>
+          </button>
+        </div>
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/votingrights.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Forbids racial discrimination in elections, and it has been modified several times to provide protections against other types of voter discrimination.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 3rd -->
+        <div class="card-header  card-header-odd" id="heading3">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <h4>Americans with Disabilities Act (ADA)</h4>
+          </button>
+        </div>
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/ada.gif"/>
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Forbids discrimination against people with impairments in telecommunications, public accommodations, employment, and other areas.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 4th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            <h4>Clean Air Act</h4>
+          </button>
+        </div>
+        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/clean_air.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Controls air pollutants and establishes standards for air quality in order to safeguard the environment and general public’s health.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 5th -->
+        <div class="card-header  card-header-odd" id="heading5">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            <h4>Occupational Safety and Health Act (OSHA)</h4>
+          </button>
+        </div>
+        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/osha.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Mandates that companies maintain a safe and healthy workplace and establishes requirements for such conditions.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 6th -->
+        <div class="card-header card-header-even" id="heading2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            <h4>Fair Labor Standard Act (FLSA)</h4>
+          </button>
+        </div>
+        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/flsa.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Regulates child labor, establishes minimum wage, and overtime pay regulations.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 7th -->
+        <div class="card-header  card-header-odd" id="heading7">
+          <button class="btn btn-link btn-block text-left tab-heading-even collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            <h4>Social Security Act</h4>
+          </button>
+        </div>
+        <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionE">
+          <div class="card-body card-content-odd">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/socialsecurity.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Established a social insurance program to provide retirement, disability, and survivor payments to qualified people.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card"> <!-- 8th -->
+        <div class="card-header card-header-even" id="heading8">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            <h4>Immigration and Nationality Act</h4>
+          </button>
+        </div>
+        <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionE">
+          <div class="card-body card-content-even">
+            <div class="row">
+              <div class="col-4">
+                <img src="photos/federal_laws/immigrationact.jpg" />
+              </div>
+              <div class="col-8">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h5>Specifies the standards for issuing visas and other immigration benefits and regulates immigration to the United States.</h5>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site footer -->
+  <footer>
+    <div class="row">
+      <div class="col-3" style="float: left; text-align: left;">
+        <div class="footer-body">
+          <ul>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Language</button>
+              <div class="content">
+                <a class="dropdown-item" href="index.html" style="font-size: 15px;">English</a>
+                <a class="dropdown-item" href="index-español.html" style="font-size: 15px;">Español</a>
+                <a class="dropdown-item" href="index-kreyòl.html" style="font-size: 15px;">Kreyòl</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Constitution</button>
+              <div class="content">
+                <a class="dropdown-item" href="history.html" style="font-size: 15px;">History</a>
+                <a class="dropdown-item" href="amendments.html" style="font-size: 15px;">Amendments</a>
+                <a class="dropdown-item" href="supreme-court.html" style="font-size: 15px;">Supreme Court</a>
+                <a class="dropdown-item" href="federal-laws.html" style="font-size: 15px;">Federal Laws</a>
+              </div>
+            </li>
+            <li>
+              <button class="collapsible" onclick="expandToggle()" style="font-size: 15px;">Current Government</button>
+              <div class="content">
+                <a class="dropdown-item" href="united-states.html" style="font-size: 15px;">United States</a>
+                <a class="dropdown-item" href="florida.html" style="font-size: 15px;">Florida</a>
+                <a class="dropdown-item" href="missouri.html" style="font-size: 15px;">Missouri</a>
+              </div>
+          </li>
+            <li>
+              <a class="nav-link" href="citizenship-test.html" style="font-size: 15px; margin: 0;">Citizenship Test & Prep</a>
+            </li>
+            <li>
+              <a class="nav-link" href="get-involved.html" style="font-size: 15px;">Get Involved</a>
+            </li>
+            <li>
+              <a class="nav-link" href="about-us.html" style="font-size: 15px;">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6" style="text-align: center;">
+        <center>
+          <div class="footer-body card-footer-cntr">
+            <h5  style="font-size: 17px;">Sign up for our monthly newsletter for more modern civic translations!</h5>
+            <form>
+              <div class="input-group mb-3"> 
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3"  style="font-size: 14px;">Email</span>
+                </div>
+                <input type="text" class="form-control" id="basic-email" aria-describedby="basic-addon3">
+              </div>
+              <button type="submit" class="btn btn-submit"  style="font-size: 14px;">Submit</button>
+            </form>
+          </div>
+        </center>
+      </div>
+      <div class="col-3" style="float: right; text-align: right;">
+        <div class="footer-body footer-body-right">
+          <h5>created by sci_chicks</h5>
+          <p  style="font-size: 16.5px;">A group of female high school students aiming to educate others on the rights and laws in the United States.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <center>
+      <h7>Copyright ©2023 STELLAR CITIZENS</h7>
+    </center>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
+</body>
+
+</html>
