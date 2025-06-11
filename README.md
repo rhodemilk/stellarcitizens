@@ -1,2 +1,2 @@
 # stellarcitizens
-old code/art project
+Although the United States of America prides itself with its Constitution, there is a worrisome number of people living in the U.S. that aren’t aware of the rights included in the Constitution and crucial laws they need to follow while living there. This website serves as a knowledge base for any individuals interested in learning more about the influential history and ideas that made the United States what it is today and how the country continues to function.
